@@ -5,7 +5,6 @@ import java.util.Map;
 
 public class Order {
 	
-	
 	private int oid;
 	private String uerName;// 订单客户
 	private int time;// 订单时间
@@ -18,11 +17,11 @@ public class Order {
 		super();
 	}
 
+	
 	public Order(int oid, String uerName, String address, int state, Map<String, Product> pros) {
 		super();
 		this.oid = oid;
 		this.uerName = uerName;
-
 		this.address = address;
 		this.state = state;
 		this.products = pros;
